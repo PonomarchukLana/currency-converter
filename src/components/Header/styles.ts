@@ -18,7 +18,7 @@ export const Logo = styled.h1`
 export const CurrencyWrapper = styled.div`
   display: flex;
   color: #bdbdbd;
-  font-size: 13px;
+  font-size: 11px;
 
   & span {
     margin-left: 21px;
