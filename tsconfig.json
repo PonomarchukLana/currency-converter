@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "strict": true,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "downlevelIteration": true,
+        "noEmit": true,
+        "baseUrl": "./",
+        "sourceMap": true,
+        "paths": {
+            "src/*": ["./src/*"]
+        },
+        "types": [
+            "react",
+            "react-dom",
+            "react-router-dom",
+            "react-redux",
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
